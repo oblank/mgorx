@@ -12,9 +12,9 @@ define your models like this
 package models
 
 import (
-  "github.com/robfig/revel"
+  "github.com/revel/revel"
   "labix.org/v2/mgo/bson"
-  "github.com/tanema/mgorx"
+  "github.com/oblank/mgorx"
   "time"
 )
 
@@ -44,7 +44,7 @@ And then you are able to do something like this in your controllers for a more n
 package controllers
 
 import (
-  "github.com/robfig/revel"
+  "github.com/revel/revel"
   "yourapp/app/models"
 )
 
