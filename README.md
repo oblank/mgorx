@@ -13,7 +13,7 @@ package models
 
 import (
   "github.com/revel/revel"
-  "labix.org/v2/mgo/bson"
+  "gopkg.in/mgo.v2/bson"
   "github.com/oblank/mgorx"
   "time"
 )
